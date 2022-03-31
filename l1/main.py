@@ -59,7 +59,7 @@ def main():
                                                      filename=filename)
 
     for url in start_url_parsed_urls[:max_depth]:
-        get_urls_from_target_url(target_url=start_url,
+        get_urls_from_target_url(target_url=url,
                                  show_in_terminal=show_in_terminal,
                                  filename=filename)
 
