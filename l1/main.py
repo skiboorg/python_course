@@ -11,7 +11,7 @@ def init():
         depth = input('Глубина парсинга с начального URL:')
         if not depth.isdigit():
             print('Ошибка! Значение глубина парсинга должно быть числом')
-    while not show_in == '1' and not show_in == '2' :
+    while not show_in == '1' and not show_in == '2':
         show_in = input('''Вывод результата в
          1 - терминале
          2 - файле
